@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.mybatisproxydemo.mapper.BrandMapper">
+
+    <!--sql片段-->
+    <sql id="brand_columns">
+        <!-- as 起别名 -->
+        id, brand_name as brandName, company_name as companyName, ordered, description, status
+    </sql>
+
+    <!--<select id="selectAll" resultType="Brand">-->
+    <!--    select-->
+    <!--    # 引入sql片段-->
+    <!--    <include refid="brand_columns"></include>-->
+    <!--    from tb_brand-->
+    <!--</select>-->
+
+    <!--
+        结果映射
+            id: 唯一标识
+            type: 对应的映射类型, 支持别名
+    -->
+    <resultMap id="brandResultType" type="Brand">
+        <!--
+            id 标签 完成主键字段的映射
+                column: 表的列名
+                property: 实体类的属性名
+            result 标签 完成一般字段的映射
+        -->
+        <id column="id" property="id"/>
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>
+
+    <!--使用resultMap来 映射 数据库表的列名 和 实体类的属性名 -->
+    <select id="selectAll" resultMap="brandResultType">
+        select * from tb_brand
+    </select>
+
+    <!--
+        参数占位符:
+            1. #{} 会将其替换为?, 防止sql注入
+            2. ${} 直接拼接, 会有sql注入的问题
+
+        SQL语句中特殊字符处理:
+            1. 转义字符: &lt
+            2. CDATA区:  CD提示
+                <![CDATA[
+                    <
+                ]]>
+    -->
+    <select id="selectAllById" resultMap="brandResultType">
+        select * from tb_brand where id = #{id}
+    </select>
+
+
+</mapper>

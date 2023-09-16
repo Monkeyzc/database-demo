@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d80c5150-fd13-4cc1-8e40-1e5d7353401c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/src/main/java/JDBCDemo/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/src/main/java/JDBCDemo/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/REDEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/java/ApplicationEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/java/org/mybatisdemo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/ApplicationEntryMybatisProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/test/java/org/mybatis/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="log4j2" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/maven-local/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar!/org/apache/logging/log4j/LogManager.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/apache-maven-3.9.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2VHQh1y3cgIA1dJLpHAkJd8KhQj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "/Users/zf/Desktop/javaL/database-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.General",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper" />
+      <recent name="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxdemo/mapper" />
+      <recent name="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper" />
+      <recent name="$PROJECT_DIR$/jdbc-demo-module/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectById">
+    <configuration name="ApplicationEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationEntry" />
+      <module name="mybatis-demo-module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationEntryMybatisProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationEntryMybatisProxy" />
+      <module name="mybatis-proxy-demo-module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-proxy-demo-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-proxy-demo-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApplicationEntryMybatisProxy" />
+      <item itemvalue="Application.ApplicationEntry" />
+      <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
+      <item itemvalue="JUnit.MyBatisTest.testSelectById" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.testSelectById" />
+        <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
+        <item itemvalue="Application.ApplicationEntryMybatisProxy" />
+        <item itemvalue="Application.ApplicationEntry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80c5150-fd13-4cc1-8e40-1e5d7353401c" name="Changes" comment="" />
+      <created>1694490644363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694490644363</updated>
+      <workItem from="1694786233462" duration="2041000" />
+      <workItem from="1694788291159" duration="44000" />
+      <workItem from="1694833107365" duration="11738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
