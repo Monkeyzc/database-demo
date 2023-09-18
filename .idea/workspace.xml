@@ -4,39 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80c5150-fd13-4cc1-8e40-1e5d7353401c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/src/main/java/JDBCDemo/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-demo-module/src/main/java/JDBCDemo/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/REDEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/java/ApplicationEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/java/org/mybatisdemo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo-module/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/ApplicationEntryMybatisProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/test/java/org/mybatis/test/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d80c5150-fd13-4cc1-8e40-1e5d7353401c" name="Changes" comment="Init project, add some demo modules eg: jdbc demo, mybatis demo, mybatis proxy demo...">
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/java/org/mybatisproxydemo/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/main/resources/org/mybatisproxydemo/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/test/java/org/mybatis/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-proxy-demo-module/src/test/java/org/mybatis/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +27,8 @@
       <list>
         <option value="mybatis-config" />
         <option value="log4j2" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.General",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -117,22 +96,8 @@
       <recent name="$PROJECT_DIR$/jdbc-demo-module/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectById">
-    <configuration name="ApplicationEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplicationEntry" />
-      <module name="mybatis-demo-module" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationEntryMybatisProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplicationEntryMybatisProxy" />
-      <module name="mybatis-proxy-demo-module" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testUserUpdateById">
+    <configuration name="MyBatisTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-proxy-demo-module" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.testDeleteBrandById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-proxy-demo-module" />
       <extension name="coverage">
         <pattern>
@@ -158,24 +123,74 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="METHOD_NAME" value="testDeleteBrandById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testDeleteBrandByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-proxy-demo-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testDeleteBrandByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testUpdateBrandById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-proxy-demo-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testUpdateBrandById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testUserUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-proxy-demo-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="org.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testUserUpdateById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApplicationEntryMybatisProxy" />
-      <item itemvalue="Application.ApplicationEntry" />
-      <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-      <item itemvalue="JUnit.MyBatisTest.testSelectById" />
+      <item itemvalue="JUnit.MyBatisTest.testAdd" />
+      <item itemvalue="JUnit.MyBatisTest.testDeleteBrandById" />
+      <item itemvalue="JUnit.MyBatisTest.testDeleteBrandByIds" />
+      <item itemvalue="JUnit.MyBatisTest.testUpdateBrandById" />
+      <item itemvalue="JUnit.MyBatisTest.testUserUpdateById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest.testSelectById" />
-        <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-        <item itemvalue="Application.ApplicationEntryMybatisProxy" />
-        <item itemvalue="Application.ApplicationEntry" />
+        <item itemvalue="JUnit.MyBatisTest.testUserUpdateById" />
+        <item itemvalue="JUnit.MyBatisTest.testDeleteBrandByIds" />
+        <item itemvalue="JUnit.MyBatisTest.testAdd" />
+        <item itemvalue="JUnit.MyBatisTest.testDeleteBrandById" />
+        <item itemvalue="JUnit.MyBatisTest.testUpdateBrandById" />
       </list>
     </recent_temporary>
   </component>
@@ -189,12 +204,25 @@
       <updated>1694490644363</updated>
       <workItem from="1694786233462" duration="2041000" />
       <workItem from="1694788291159" duration="44000" />
-      <workItem from="1694833107365" duration="11738000" />
+      <workItem from="1694833107365" duration="27257000" />
     </task>
+    <task id="LOCAL-00001" summary="Init project, add some demo modules eg: jdbc demo, mybatis demo, mybatis proxy demo...">
+      <option name="closed" value="true" />
+      <created>1694877991110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694877991110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init project, add some demo modules eg: jdbc demo, mybatis demo, mybatis proxy demo..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Init project, add some demo modules eg: jdbc demo, mybatis demo, mybatis proxy demo..." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
